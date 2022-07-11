@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+      <html>
+
+      <head>
+        <link rel="stylesheet" href="details.css">
+        
+
+        <title>PurpleShop | Online Store</title>
+
+        <link rel="shortcut icon" type="image/x-icon" href="shopping-cart-256.ico" />
+
+        </head>
+
+        <div class="box1">
+                
+            <ul>
+                 <li><a href="#">About Us</a></li>
+                 <li><a href="#">Contact Us</a></li>
+                 <li><a href="user.html">Account</a></li>
+            </ul>
+            <h5>Shipping All Over The World!</h5>
+        </div>
+
+        <div class="box2">
+
+            
+            <ol>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="billing.html">Cart</a></li>
+            <li><a href="login.html">Sign Out</a></li>
+            </ol>
+
+              <div class="search">
+                   <form>
+              <input type="text"/>
+              <button>Search</button>
+                   </form>
+               
+
+
+              </div>
+
+              <div class="logo"><h2>PurpleShop</h2></div> 
+        </div>
+    
+
+        <main class="container">
+ 
+          <!-- Left Column-->
+          <div class="left-column">
+            <img data-image="black" src="item1.jpg" alt="" width=400 height=500>
+            <img data-image="blue" src="item4.jpg" alt="" width=400 height=500>
+            <img data-image="red" class="active" src="item2.jpg" alt="" width=100 height=570>
+          </div>
+         
+         
+          <!-- Right Column -->
+          <div class="right-column">
+         
+            <!-- Product Description -->
+            <div class="product-description">
+              <span>SmartPhone</span>
+              <h1>IPhone 12</h1>
+              <p>The iPhone 12 mini display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 5.42 inches diagonally (actual viewable area is less).</p>  
+
+
+                    <h3>Specifications:</h3>
+                    <h4>Weight:           4.76 ounces (135 grams)</h4> 
+                    <h4>Display:          Super Retina XDR display</h4>  
+                    <h4>Touch:            Haptic Touch</h4> 
+                     
+                  </div>
+         
+            
+         
+              <!-- Product Color -->
+              <div class="product-color">
+                <span>Color</span>
+         
+                <div class="color-choose">
+                  <div>
+                    <input data-image="red" type="radio" id="red" name="color" value="red" checked>
+                    <label for="red"><span></span></label>
+                  </div>
+                  <div>
+                    <input data-image="blue" type="radio" id="blue" name="color" value="blue">
+                    <label for="blue"><span></span></label>
+                  </div>
+                  <div>
+                    <input data-image="black" type="radio" id="black" name="color" value="black">
+                    <label for="black"><span></span></label>
+                  </div>
+                </div>
+         
+              </div>
+         
+              
+         
+            <!-- Product Pricing -->
+            <div class="product-price">
+              <span>1000$</span>
+              <a href="billing.html" class="cart-btn">Add to cart</a>
+            </div>
+          </div>
+
+          
+        </main>
+        <footer>
+          <p>© 2020 PinkStore is a non-trademark company</p>
+      </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ <script> $(document).ready(function() {
+ 
+  $('.color-choose input').on('click', function() {
+       var phoneColor = $(this).attr('data-image');
+  
+  $('.active').removeClass('active');
+  $('.left-column img[data-image = ' + phoneColor + ']').addClass('active');
+  $(this).addClass('active');
+  
+  
+   });
+  
+  }); </script>
+
+
+  </html>
