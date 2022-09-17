@@ -1,146 +1,97 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Resume</title>
+</head>
+<body >
+    
+<div class="nav-bar">
 
-      <html>
-
-      <head>
-        <link rel="stylesheet" href="Index.css">
+    
+    <ul>    
+        <div class="title"><h1>Portfolio</h1></div>
+        <li><a href="#about">HTML Videos</a></li>
+        <li><a href="#about">Projects</a> </li>
+        <li><a href="#about">About</a></li>
         
+    </ul>
 
-        <title>PurpleShop | Online Store</title>
 
-        <link rel="shortcut icon" type="image/x-icon" href="shopping-cart-256.ico" />
-
-        </head>
-
-          <body>
-              
-            
-            <div class="box1">
-                
-              <ul>
-                   <li><a href="#">About Us</a></li>
-                   <li><a href="#">Contact Us</a></li>
-                   <li><a href="user.html">Account</a></li>
-              </ul>
-              <h5>Shipping All Over The World!</h5>
-          </div>
+</div>
   
-          <div class="box2">
-  
-              
-              <ol>
-                  <li><a href="Index.html">Home</a></li>
-                  <li><a href="billing.html">Cart</a></li>
-              <li><a href="login.html">Sign Out</a></li>
-              </ol>
-  
-                <div class="search">
-                     <form>
-                <input type="text"/>
-                <button>Search</button>
-                     </form>
-                 
-  
-  
-                </div>
-  
-                <div class="logo"><h2>PurpleShop</h2></div> 
-          </div>
+<div class="container-main" style="border-radius: 20px;">
+
+    <div style="align-self:center; margin: 20px; color: white;">Ahmed Moiz - Student at NUCES FAST</div>
+    <div class="container-main2">
 
 
-            <div class="cover">
-                <img src="mobiles.jpg">
-            
-                <div class="text">
-                    <h1>Get Upto 20% Off on your First Purchase!</h1>
-                    <h4>Christmas Offer!</h4>
-                </div>
-                 
+        <div class="container-main2-img" ><img src="dp.jpg" /></div>
+        <div class="not-wrap-container-main2" style=" align-self:center;">
 
+            <div class="links" style="align-self:center; ">
+                <a href="https://ahmed-m1.github.io/"><img   style="border-radius: 20px; height: auto; width: 100px; overflow: hidden; " src="gitlogo.png"/>Github</a> 
+                <a href="https://www.facebook.com/ahmed.moiz.739" ><img   style="border-radius: 20px; height: auto; width: 90px; overflow: hidden; margin-right: 10px; " src="FacebookPNG.png"/>Facebook</a> 
+                <a href="https://www.facebook.com/ahmed.moiz.739" ><img   style="border-radius: 20px; height: auto; width: 90px; overflow: hidden; margin-right: 10px; " src="instaIcon.png"/>Instagram</a> 
             </div>
 
+        </div>
         
-<div class="container1">
-<div class="heading"><h4>Brands</h4></div>
-    
-                    <div class="image1">
+        <div class="container-aboutme" id="about">
    
-                    <img src="item3.jpg" height="300" width="300" >
-                    
-                    <h6><a href="items.html">Samsung</a></h6>
-                            
-                     
-                    </div>
-             
-                    <div class="image2">
-   
-                        <img src="item1.jpg" height="300" width="300" >
-                        
-                        <h6><a href="items.html">Huawei</a></h6>
-                                
-                         
-                        </div>
+            <h4>About Me:</h4>
+            <div class="text-content">
+                <p>I am a student of FAST who loves programming. I am have keen understanding of software developent. Furthermore, I am also equipped with a vast knowledge of frameworks and have sufficient skill to implement them.</p>
 
-                        <div class="image3">
-   
-                            <img src="item5.jpg" height="300" width="300" >
-                            
-                            <h6><a href="items.html">Apple</a></h6>
-                                    
-                             
-                            </div>
-                          
-                          </div>
-                    
-                            
-                            <div class="container">
-                                <h4>Top Sellers</h4>
-                            <div class=top5>
 
-                            <a href="items.html"> 
-                                
-                                <img class="mySlides" src="item5.jpg" width="300" height="300">
-                                <img class="mySlides" src="item3.jpg" width="300" height="300">
-                                <img class="mySlides" src="item22.jpg" width="300" height="300">
-                                <img class="mySlides" src="item1.jpg" width="300" height="300">
-                                
+            <h5>Education: FAST NUCES (2020- 2024)</h5>
+            <h5>Degree: BS Computer Science</h5>
+            
+
+
+            </div>
+            
+            
+        
+        </div>
+
+    </div>
+
+    <div class="container-project">
+       
+        <h4>Projects:</h4>
+        <div class="row-1">
+            
+            <div class="column">
+                <img src="project1.jpg" alt="NoImage"/>
                 
-                            </a>
-                            </div>
-                            </div>
-
-                          
 
 
-                            <footer>
-                                <p>© 2020 PinkStore is a non-trademark company</p>
-                            </footer>
-                            
-<script>
-var slideIndex = 0;
-carousel();
+            </div>
+            <div class="column"><img src="project2.png" alt="NoImage"/></div>
+            <div class="column"><img src="" alt="NoImage"/></div>
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > x.length) {slideIndex = 1}
-  x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
+
+        </div>
 
 
 
+    </div>
 
-    </script>
+
+    
     
 
+</div>
 
-        </body>
 
 
-        
-          </html>
+
+</div>
+    
+
+</body>
+</html>
