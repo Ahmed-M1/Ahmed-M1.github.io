@@ -1,12 +1,11 @@
 
 body{
 
-    background-image: url('/Assets/bg2.jpg');
-    background-size: cover; 
-    background-repeat: no-repeat;
-    width:100%;
-    min-width:705px;
-    height:auto;
+  background-image: url('/Assets/bg2.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  min-width:705px;
+  height:auto;
   }
   .nav-bar{ 
      margin-bottom: 20px;
