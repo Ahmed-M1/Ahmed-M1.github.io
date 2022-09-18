@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css" type="text/css">
-    <title>Resume</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
 </head>
 <body >
     
@@ -15,9 +14,10 @@
     
     <ul>    
         <div class="title"><h1>Portfolio</h1></div>
-        <li><a href="#about">HTML Videos</a></li>
-        <li><a href="#about">Projects</a> </li>
+        <li><a href="#about">Videos</a></li>
+        <li><a href="#projects" >Projects</a> </li>
         <li><a href="#about">About</a></li>
+        <li><a href="index.html" style="background-color: #EDBAAB; border-radius: 20px;">Home</a></li>
         
     </ul>
 
@@ -50,7 +50,24 @@
 
             <h5>Education: FAST NUCES (2020- 2024)</h5>
             <h5>Degree: BS Computer Science</h5>
+            <div class="timetable">
+                <a  href="timetable.html" style=" display: block; " ><img src="timetable.png" style="height: 40px;width: 40px;" />Course Timetable</a>
+            </div>
             
+
+            <h5 style="display:block;font-size: 36px;">Major Courses:</h5>
+            <ol class="courses">
+                <li >Software Design and Analysis</li>
+                <li >Data Structures</li>
+                <li >OOP</li>
+                <li >Operating Systems</li>
+            </ol>
+            <h5 style="display:block; font-size: 36px;">Minor Courses:</h5>
+            <ol class="courses">
+                <li >Fundamentals of Management</li>
+                <li >Marketing Management</li>
+            </ol>
+
 
 
             </div>
@@ -61,19 +78,47 @@
 
     </div>
 
-    <div class="container-project">
+    <div class="container-project" id="projects">
        
         <h4>Projects:</h4>
         <div class="row-1">
             
             <div class="column">
+                <div class="proj-title">3D Game In UE 5 (2020)</div>
                 <img src="project1.jpg" alt="NoImage"/>
-                
-
 
             </div>
-            <div class="column"><img src="project2.png" alt="NoImage"/></div>
-            <div class="column"><img src="" alt="NoImage"/></div>
+
+
+            <div class="column">
+                <div class="proj-title">3D Modelled Scene (2021)</div>
+                <img src="proj2.jpg" alt="NoImage"/>
+            
+            </div>
+
+            <div class="column">
+                <div class="proj-title">Android Game with Unity (2022)</div>
+                <img src="proj3.jpg" alt="NoImage"/>
+            </div>
+
+
+        </div>
+
+        <div class="row-2">
+            
+            <div class="column">
+                <div class="proj-title">Web Scapper using Python (2021)</div>
+                <img src="proj4.jpeg" alt="NoImage"/>
+
+            </div>
+
+
+            <div class="column">
+                <div class="proj-title">Ludo with C++ <br/>(2020)</div>
+                <img src="proj5.jpg" alt="NoImage"/>
+            
+            </div>
+
 
 
         </div>
