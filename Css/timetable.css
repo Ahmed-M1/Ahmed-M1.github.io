@@ -29,19 +29,23 @@ body{
   
   }  
   
-  
+  .container-table h1{
+
+    color: white;
+  }
   .nav-bar li a {
-  
+
     display: block;
-    color: black;
+    color: rgb(10, 10, 10);
     font-weight:bold;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     padding:10px 10px;
-    
+    margin:10px ;
+  
     }
   
     .title{
@@ -70,15 +74,15 @@ body{
       }
       
       td, th {
-        border: 1px solid #fdfdf9;
+        border: 1px solid #076b66;
         text-align: left;
         padding: 8px;
       }
       
       tr:nth-child(even) {
-        background-color: #ee8a08;
+        background-color: #089aee;
       }
 
       tr:nth-child(ODD) {
-        background-color: #daf012;
+        background-color: #12f0e5;
       }
