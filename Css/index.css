@@ -2,7 +2,7 @@
 body{
 
   background-image: url('/Assets/bg2.jpg');
-  background-size: cover; 
+  background-size:cover;
   background-repeat: no-repeat;
   min-width:705px;
   height:auto;
@@ -39,12 +39,12 @@ body{
 .nav-bar li a {
 
   display: block;
-  color: black;
+  color: rgb(255, 254, 254);
   font-weight:bold;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 18px;
   padding:10px 10px;
   margin:10px ;
@@ -72,22 +72,21 @@ body{
   
 .container-main2-img{
 
+  
   margin:20px ;
   height: 300px;
   width: 300px;
   overflow: hidden;
   border-radius: 100%;
   border:1px;
-  border-color:   rgb(255, 250, 250);
+  border-color:   rgb(250, 255, 250);
   border-style: groove;
   
   
+  
+  
 }
-.container-main2{
 
-  border-style: double;
-
-}
 .container-main2-img img{
 
   
@@ -98,6 +97,84 @@ body{
 }
   
 
+/* @media only screen and (max-width: 900px) {
+  
+  .not-wrap-container-main2{
+    width: 60%;
+    
+  }
+  
+  .container-main2-img{
+    position: relative;
+    left: 25%;
+  }
+  
+
+}*/
+
+.text-content h5 a{
+
+  text-decoration: none;
+  color: rgb(51, 51, 51);;
+}
+
+.text-content h5 a:hover{
+
+  text-decoration: underline;
+  color: rgb(18, 14, 223);;
+}
+.text-content h5 a{
+
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1212px) {
+  
+  .container-main2{
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  
+
+}
+
+@media only screen and (max-width: 783px) {
+  
+  #element1{
+
+    display: none;
+  }
+
+  #element2{
+
+    display: none;
+  }
+  .nav-bar li a {
+
+    font-size: 150%;
+
+  }
+
+  .links{
+
+    
+    justify-content: center;
+  }
+
+  .links a{
+
+    width:50%;
+
+
+  }
+
+  .text-content h5{
+
+    display: block;
+  }
+
+}
 
 .container-main2{
 
@@ -105,12 +182,13 @@ body{
    margin:20px;
    flex-direction: row;
    flex-wrap: wrap;
+   border-style:solid;
 }    
   
 
-
 .container-main{
 
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -130,6 +208,7 @@ body{
 
 .not-wrap-container-main2{
 
+  
   display:flex;
   margin: auto;
   flex-wrap: wrap;
@@ -145,7 +224,7 @@ body{
 }
 .links a{
 
-  color:#42b4d6;
+  color: rgb(0, 61, 153);;
   text-decoration: none;
   font-size: 200;
   margin: 10px;
@@ -206,7 +285,7 @@ h5{
   display: flex;
   flex-wrap:wrap;
   flex-direction: row;
-  background-color: #e3beed1c;
+  
   margin-bottom:20px;
   align-items: center;
   justify-content: center;
@@ -260,7 +339,7 @@ h5{
   display: flex;
   flex-wrap:wrap;
   flex-direction: row;
-  background-color: #e3beed1c;
+  
   margin-bottom:20px;
   align-items: center;
   justify-content: center;
